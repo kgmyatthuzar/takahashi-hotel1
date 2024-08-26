@@ -1,0 +1,213 @@
+@import url(header.css);
+@import url(menulist.css);
+@import url(footer.css);
+
+/*　基本CSS　ここでは全ページに共通で使用できるものだけを設定*/
+
+/*ボディ全体*/
+*{margin:0px; padding:0px;}
+
+/*IME指定*/
+.ime_ac{ime-mode: active;}
+.ime_in{ime-mode: inactive;}
+.ime_ds{ime-mode: disabled;}
+
+/*位置指定*/
+.lt{text-align: left;}
+.rt{text-align: right;}
+.ct{text-align: center;}
+
+/*位置指定*/
+.to{vertical-align: top;}
+.mi{vertical-align: middle;}
+.bo{vertical-align: bottom;}
+
+/*フロート*/
+.flt{float: left;}
+.frt{float: right;}
+
+/*クリア*/
+.clear{clear: both;}
+
+/* margin */
+.mb5{margin-bottom: 5px;}
+.mt5{margin-top: 5px;}
+.ml5{margin-left: 5px;}
+.mr5{margin-right: 5px;}
+
+.mt10{margin-top: 10px;}
+.mb10{margin-bottom: 10px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+
+.mt20{margin-top: 20px;}
+.mb20{margin-bottom: 20px;}
+.ml20{margin-left: 20px;}
+.mr20{margin-right: 20px;}
+
+.pb10{padding-bottom: 10px;}
+.pt10{padding-top: 10px;}
+.pl10{padding-left: 10px;}
+.pr10{padding-right: 10px;}
+
+.pb20{padding-bottom: 20px;}
+.pt20{padding-top: 20px;}
+.pl20{padding-left: 20px;}
+.pr20{padding-right: 20px;}
+
+.fwb{font-weight: bold;}
+.fwn{font-weight: normal;}
+
+.fs11{font-size: 11px;}
+.fs12{font-size: 12px;}
+.fs13{font-size: 13px;}
+.fs14{font-size: 14px;}
+.fs15{font-size: 15px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs24{font-size: 24px;}
+
+.lh100{line-height: 100%;}
+.lh120{line-height: 120%;}
+.lh150{line-height: 150%;}
+
+/* 共通 */
+
+
+/* body {
+	color: #666666;
+	font-size: 13px;
+	background: url(img/imgg/header_bg_line.jpg) repeat-x center top;
+} */
+
+a {
+	color: #666666;
+}
+
+/* メイン */
+/* div#main {
+} */
+
+/* メインコンテンツ */
+
+div#main_contents {
+	background: url(../img/bg_green.jpg) no-repeat top;
+	width: 100%;
+}
+
+div#main_box{
+	width: 950px;
+	margin: 0px auto;
+	border-left: 1px #dfdfdf solid;
+	border-right: 1px #dfdfdf solid;
+	background-color: #ffffff;
+}
+
+div#pankuzu {
+	padding: 7px 0 10px 0;
+	font-size: 11px;
+}
+
+div#pankuzu a {
+	color: #9d79bc;
+}
+
+/* リンク */
+
+a img.linkimg{ background:none!important; }
+a:hover img.linkimg{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha( opacity=60 )";
+	background:none!important;
+}
+
+/* 左カラム */
+
+div#left_contents {
+	float: left;
+	margin: 10px 0px 0px 0px;
+	padding: 0 10px 0 15px;
+	width: 670px;
+	border-right: 1px #dfdfdf solid;
+}
+
+div.main_title {
+	margin: 0px 0px 10px 0px;
+}
+
+div.sub_title {
+	background-image: url(../../common/image/sub_title_back.gif);
+	background-repeat: no-repeat;
+	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 20px 6px 23px;
+}
+
+div.contents_title {
+	padding: 4px 0px 2px 0px;
+	margin: 0px 0px 5px 0px;
+	border-bottom: 1px dotted #06ab74;
+	background-image: url(../../common/image/floral.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	color: #06ab74;
+	font-size: 14px;
+}
+
+
+
+div.contents {
+	padding: 10px 10px 30px 10px;
+	line-height: 16px;
+}
+
+div.sub_contents {
+	border: 1px solid #f0f1eb;
+}
+
+div.sc_inner {
+	margin: 1px;
+	background-color: #f8f8f8;
+	padding: 10px;
+	background-image: url(../../common/image/logo_back.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+img.image_border {
+	border: 1px solid #eeeeee;
+	padding: 3px;
+	background-color: #f9f9f9;
+}
+
+
+
+/* 右カラム */
+
+div#right_contents {
+	float: right;
+	width: 227px;
+	padding: 10px 15px 0px 0px;
+}
+
+div.banner_link a {
+	border: 1px solid #eeeeee;
+	padding: 15px 10px 15px 10px;
+	margin: 0px 0px 7px 0px;
+	text-decoration: none;
+	display: block;
+	color: black;
+	
+}
+div.banner_link i {
+	color: green;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+div.banner_link a:hover {
+	background-color: #f9f9f9;
+}

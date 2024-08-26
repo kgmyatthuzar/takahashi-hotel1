@@ -1,0 +1,74 @@
+/*ご案内*/
+
+a.link_box {
+	display: block;
+	float: left;
+	width: 150px;
+	text-decoration: none;
+}
+
+div.l_txt {
+	line-height: 16px;
+	padding: 0px 0px 0px 5px;
+	font-size: 12px;
+}
+
+.ttl-travel {
+	font-size: 18px;
+	color: #07AC74;
+	font-weight: bold;
+}
+
+.text-red {
+	color: #F00;
+	font-weight: bold;
+}
+
+/* お知らせ */
+#new_box{
+	height: 230px;
+	overflow-y: scroll;
+	width: 100%;
+	scrollbar-track-color:white;
+	scrollbar-face-color:#f1fbd5;
+	scrollbar-arrow-color:#cccccc;
+	scrollbar-shadow-color:#cccccc;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-3dlight-color:#cccccc;
+}
+
+table#new_table {
+	border-collapse: collapse;
+}
+
+table#new_table th {
+	vertical-align: top;
+	border-bottom: 1px dotted #dddddd;
+	padding: 8px 10px 8px 0px;
+	font-weight: normal;
+	text-align: left;
+	width: 15%;
+}
+
+table#new_table td {
+	vertical-align: top;
+	border-bottom: 1px dotted #dddddd;
+	padding: 8px 0px 8px 0px;
+	width: 85%;
+}
+table#new_table th span{
+	color: green;
+	padding-right: 10px;
+}
+
+.attention {
+	border: 4px solid #f20;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 160%;
+	text-align: center;
+	margin: 10px 0 10px;
+	padding: 15px;
+}
