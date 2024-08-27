@@ -1,0 +1,313 @@
+.title-img{
+	width: 660px;
+}
+.title-img img{
+  width: 650px;
+}
+/* 特別プラン */
+.sub_title{
+  width:100%;
+	position:relative;
+  left: 0;
+  padding-top: 10px;
+  border-top: 2px solid #c8ccb9;
+  /* border: 1px solid #f0f1eb; */
+}
+.sub_title span{
+  padding-left: 20px;
+}
+.special-title span{
+    font-family: "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    padding-left: 20px;
+  }
+  .sub_title:before{
+    content:"";
+    width: 10px;
+    height:20px;
+    background:green;
+    /* display:block; */
+    position:absolute;
+    transform: translateX(-15px);
+    left: 16px;
+    top: 13px;
+    padding-right: 10px;
+    
+    }
+
+  .explain{
+    color: black;
+  }
+  .special-explain {
+    line-height: 1.5;
+  }
+  
+  .special-explain dt {
+    font-weight: bold;
+  }
+  
+  .special-explain dd,
+  .special-explain > p {
+    margin: 0 0 1em;
+  }
+  
+  .text-underline {
+    text-decoration: underline;
+  }
+  
+  .special::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .special-image {
+    display: block;
+    position: relative;
+  }
+  
+  .special-image > * {
+    position: absolute;
+  }
+  
+  .special-image--logo {
+    top: 200px;
+  }
+  
+  .special-image--logo img {
+    top: -15px;
+    right: 0;
+  }
+  
+  .special-image--logo span {
+    top: 92px;
+    right: 35px;
+  }
+  
+  .special-image_inner {
+    top: -130px;
+    right: 0;
+  }
+  
+  .special-image_inner small {
+    display: block;
+  }
+  
+  .special-off {
+    display: flex;
+    margin: 0 0 10px;
+    line-height: 1.6;
+  }
+  
+  .special-off span {
+    margin: 0 1em 0 0;
+  }
+  
+  .special-price_list {
+    margin: 5px 0 15px;
+    padding: 0;
+  }
+  
+  .special-price_list li,
+  .special-attention_list li {
+    display: flex;
+    margin: 0 0 5px;
+    list-style-type: none;
+    line-height: 1.4;
+  }
+  
+  .special-price_list li span {
+    width: 130px;
+    color: #15b17c;
+    font-weight: bold;
+  }
+  
+  .special-price_list li::before {
+    content: '・';
+  }
+  
+  .special-attention_list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .special-attention_list li::before {
+    content: '＊';
+  }
+  
+  /*宿泊プラン*/
+  .text-red {
+    color: #F00;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  
+  table.travel_list {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+  }
+  
+  table.travel_list th {
+    width: 300px;
+    padding: 10px 0;
+    border-right: 1px solid #FFF;
+    background: #d2ebdf;
+    border-color: #FFF;
+    text-align: center;
+  }
+  
+  table.travel_list td {
+    padding: 10px 0;
+    background: #f6f6f6;
+    border-color: #FFF;
+    text-align: center;
+  }
+  /* 客室のご案内 */
+  
+  div#room_list {
+    margin: 0px -10px 0px 0px;
+    
+  }
+  
+  div.room {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+  }
+  div.room a{
+    text-decoration: none;
+  }
+  
+  div.room img {
+    margin: 0px 0px 5px 0px;
+  }
+  .room-label{
+    padding: 5px;
+    color: rgb(58, 131, 40);
+	  font-family: "Noto Sans JP", sans-serif;
+	  font-weight: bold;
+  	font-style: normal;
+	  font-size: 15px;
+    border: 1px solid #f0f1eb;
+    background: linear-gradient(#fdfafa, rgb(233, 230, 230));
+  }
+  
+  /* 料金表 */
+  
+  table.price_list {
+    border-collapse: collapse;
+  }
+  
+  table.price_list th {
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0px 10px 0px;
+    background-color: #d2ebdf;
+    text-align: center;
+  
+  }
+  
+  table.price_list td {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 10px 10px 10px;
+    background-color: #f6f6f6;
+  }
+  
+  /* 詳細はこちらボタン */
+  .btn-detail {
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .btn-detail a {
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #05ac74;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* 空室状況 */
+  
+  div.calender {
+    margin: 3px 5px 0px 0px;
+    float: left;
+    width: 200px;
+  }
+  
+  
+  
+  table.calender {
+    border-collapse: collapse;
+  
+  }
+  
+  table.calender th {
+    border: 1px solid #ffffff;
+    padding: 5px 6px 5px 6px;
+    background-color: #d2ebdf;
+    vertical-align: top;
+  
+  }
+  
+  table.calender td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 3px;
+    vertical-align: top;
+    background-color: #f6f6f6;
+    font-weight: bold;
+  }
+  
+  table.calender td.sat,table.calender th.sat {
+  /*  background-color: #ccccff;*/
+    color: #2a34ba;
+  }
+  
+  table.calender td.sun,table.calender th.sun {
+  /*  background-color: #ffcccc;*/
+    color: #cf2020;
+  }
+  
+  table.calender div {
+    color: #666666;
+  }
+  
+  .attention {
+    border: 4px solid #f20;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 160%;
+    text-align: center;
+    margin: 10px 0 10px;
+    padding: 15px;
+  }
+  
+  /* おかやまハレ旅応援割 */
+  .contents_plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F8F8F8;
+    border: 2px solid #F0F1EB;
+  }
+  
+  .contents_plan:hover {
+    opacity: 50%;
+  }
+  
+  .contents_plan .planImg {
+    width: 100%;
+    border: 1px solid #F0F1EB;
+  }
+  
+  .okayamaLinkLogo {
+    height: 70px;
+    vertical-align: middle;
+  }

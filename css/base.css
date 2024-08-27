@@ -5,7 +5,7 @@
 /*　基本CSS　ここでは全ページに共通で使用できるものだけを設定*/
 
 /*ボディ全体*/
-*{margin:0px; padding:0px;}
+*{margin:0px; padding:0px;   }
 
 /*IME指定*/
 .ime_ac{ime-mode: active;}
@@ -104,8 +104,8 @@ div#main_box{
 }
 
 div#pankuzu {
-	padding: 7px 0 10px 0;
-	font-size: 11px;
+	padding: 2px 0 5px 0;
+	font-size: 15px;
 }
 
 div#pankuzu a {
@@ -136,45 +136,33 @@ div.main_title {
 	margin: 0px 0px 10px 0px;
 }
 
-/* div.sub_title {
-	background-image: url(../../common/image/sub_title_back.gif);
-	background-repeat: no-repeat;
-	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
-	font-size: 15px;
-	font-weight: bold;
-	padding: 12px 20px 6px 23px;
-}
-
-div.contents_title {
-	padding: 4px 0px 2px 0px;
-	margin: 0px 0px 5px 0px;
-	border-bottom: 1px dotted #06ab74;
-	background-image: url(../../common/image/floral.png);
-	background-repeat: no-repeat;
-	background-position: right top;
-	color: #06ab74;
-	font-size: 14px;
-} */
-
-
-
 div.contents {
-	padding: 10px 10px 30px 10px;
+	padding: 10px 5px 30px 5px;
 	line-height: 16px;
+	color: #666666;
+    font-size: 15px;
 }
-
+div.contents_title {
+    padding: 4px 0px 2px 0px;
+    margin: 0px 0px 5px 0px;
+    border-bottom: 1px dotted #06ab74;
+    background-image: url(../img/stay/floral.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: #06ab74;
+    font-size: 14px;
+}
 div.sub_contents {
 	border: 1px solid #f0f1eb;
 }
-
-/* div.sc_inner {
+div.sc_inner {
 	margin: 1px;
 	background-color: #f8f8f8;
 	padding: 10px;
-	background-image: url(../../common/image/logo_back.png);
+	background-image: url(../img/stay/logo_back.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
-} */
+}
 
 img.image_border {
 	border: 1px solid #eeeeee;
@@ -210,3 +198,4 @@ div.banner_link i {
 div.banner_link a:hover {
 	background-color: #f9f9f9;
 }
+
