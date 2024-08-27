@@ -1,8 +1,7 @@
 
 #menulist{
   background-color: black;
-  padding: 0px; 
- 
+  
 }
 .nav-item:hover {
   background: linear-gradient(to top, #306d4f, #060707);
@@ -11,12 +10,20 @@
   display: block;
   color: white;
   text-decoration: none;
-  font-size: min(18px, 1.5vw);
-  padding-left: 5px;
-  
+  font-size: min(15px, 1.5vw);
+  /* padding-left: 5px; */
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+nav{
+  width: 950px;
+  margin: 0px auto; 
 }
 .nav-item{
   border-right: 2px dotted white;
+  
 }
 .nav-link a:nth-child(2){
   font-size: 10px;
@@ -44,13 +51,22 @@
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  
+}
+.main_title span:nth-child(1){
+  font-family: "Noto Serif JP", serif;
+  font-size: small;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: .2rem;
+
 }
 
-
 .main_title span:nth-child(2){
-  
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
+  font-style: normal;
   padding-right: 45px;
+
 }
 .main_title:before{
   content:"";
@@ -74,8 +90,11 @@
 
 .sleep,.restaurant,.wedding,.party{ 
   text-align: center;
-  color: rgb(93, 182, 70);
-  font-size: 15px;
-  font-weight: bold;
+  color: rgb(98, 211, 70);
   padding: 6px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 10px;
+  /* letter-spacing: 10px; */
 }
