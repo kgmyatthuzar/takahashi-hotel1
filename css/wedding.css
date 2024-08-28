@@ -1,0 +1,99 @@
+.title-img{
+	width: 660px;
+}
+.title-img img{
+  width: 650px;
+}
+/* フェアのご案内 */
+.title1{
+    width:100%;
+	position:relative;
+    margin-top: 10px;
+    left: 0;
+    padding-top: 10px;
+    border-top: 2px solid #c8ccb9;
+    font-family: "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+  .title1 span{
+    padding-left: 20px;
+  }
+  .title1:before{
+    content:"";
+    width: 10px;
+    height:20px;
+    background:green;
+    /* display:block; */
+    position:absolute;
+    transform: translateX(-15px);
+    left: 16px;
+    top: 13px;
+    padding-right: 10px;
+    
+    }
+a.fair_box {
+    display: block;
+    float: left;
+    width: 310px;
+    border: 1px solid #f0f1eb;
+    text-decoration: none;
+  }
+  
+  div.fair_photo {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 128px;
+  }
+  
+  div.fair_txt {
+    float: right;
+    width: 150px;
+  }
+  
+  a.link_box {
+    display: block;
+    float: left;
+    margin: 0px 10px 20px 0px;
+    background-image: url(../img/wedding/frame.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-decoration: none;
+    width: 200px;
+  
+  }
+  .content{
+    padding: 10px 0px 30px 5px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  div.l_anchor {
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+    /* padding-top: 2px; */
+    color: #776d56;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  div.l_anchor span {
+    display: block;
+    color: #EFAFDE;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  
+  div.l_txt {
+    font-size: 12px;
+    /* line-height: 130%; */
+    color: black;
+  }
+  img.img_border{
+    text-align: center;
+    border: 1px solid #eeeeee;
+	padding: 5px;
+	background-color: #f9f9f9;
+  }
+  
