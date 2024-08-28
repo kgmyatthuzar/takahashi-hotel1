@@ -1,0 +1,153 @@
+/* 上部バナー */
+.banners {
+    display: flex;
+  }
+  
+  .banners img {
+    margin-bottom: 10px;
+  }
+  .banners .banner3{
+    margin-left: 5px;
+  }
+  
+  /* フェアのご案内 */
+  .title1{
+    width:100%;
+	  position:relative;
+    left: 0;
+    padding-top: 10px;
+    border-top: 2px solid #c8ccb9;
+    font-family: "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+  .title1 span{
+    padding-left: 20px;
+  }
+  .title1:before{
+    content:"";
+    width: 10px;
+    height:20px;
+    background:green;
+    /* display:block; */
+    position:absolute;
+    transform: translateX(-15px);
+    left: 16px;
+    top: 13px;
+    padding-right: 10px;
+    
+    }
+  .text-red {
+    color: #F00;
+  }
+   /* .contents-fair {
+    display: flex;
+    flex-wrap: wrap;
+  }  */
+  .contents-fair{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .fair_box {
+    width: 50%;
+    border: 1px solid #f0f1eb;
+    text-decoration: none;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  .fair_box:hover{
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  }
+  .label:hover{
+    background-color:  rgb(93, 252, 204);
+  }
+  .inner{
+    margin: 1px;
+    width: 310px; 
+	  background-color: #f8f8f8;
+	  padding: 10px;
+	  background-image: url(../img/stay/logo_back.png);
+	  background-repeat: no-repeat;
+	  background-position: right bottom;
+  }
+  .contents-photo{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+  }
+  .label{
+    padding: 5px;
+    margin-top: 10px;
+    color: rgb(242, 245, 241);
+  	font-style: normal;
+	  font-size: 15px;
+    background-color: rgb(3, 174, 140);
+  }
+  .label-link{
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    
+	  font-size: 15px;
+    background-color: rgb(3, 174, 140);
+    
+  }
+  .label-link a{
+    text-decoration: none;
+    color: rgb(242, 245, 241);
+  	font-style: normal;
+  }
+  .label-link:hover{
+    background-color:  rgb(93, 252, 204);
+  }
+  
+  div.fair_photo {
+    float: left;
+    margin: 0px 5px 0px 0px;
+    width: 120px;
+  }
+  
+  div.fair_txt {
+    font-family: "M PLUS 1p", sans-serif;
+    float: right; 
+    width: 150px;
+    font-size: 13px;
+    left: 0;
+    color: black;
+  }
+  
+  div.r_photo {
+    /* float: left; */
+    margin: 0px 10px 0px 0px;
+    width: 50%;
+  }
+  
+  /* div.r_txt {
+  
+    width: 50%;
+  } */
+  
+  /* レストラン情報 */
+  
+  table.r_table {
+    border-collapse: collapse;
+  }
+  
+  table.r_table th {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: small;
+    background-color: #d2ebdf;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  table.r_table td {
+    font-family: "M PLUS 1p", sans-serif;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 8px 10px 8px 10px;
+    background-color: #f6f6f6;
+    font-size: small;
+  }
+  
